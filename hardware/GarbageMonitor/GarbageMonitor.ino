@@ -11,10 +11,10 @@
 #include "HX711.h"
 #include <addons/RTDBHelper.h>
 
-#define WIFI_SSID "Raut" //REPLACE IT WITH YOUR SSID
-#define WIFI_PASSWORD "raut@123" //REPLACE IT WITH YOUR WIFI_PASSWORD
-#define API_KEY "AIzaSyDVJx-O9GJegrm4N9_XigSdx6wSfFr3854" //Replace it with your Realtime Database API key
-#define DATABASE_URL "https://loggbwv-default-rtdb.firebaseio.com/" //replace it with your RTDB URL
+#define WIFI_SSID "YOUR_SSID" //REPLACE IT WITH YOUR SSID
+#define WIFI_PASSWORD "YOUR_PASSWORD" //REPLACE IT WITH YOUR WIFI_PASSWORD
+#define API_KEY "YOUR_API_KEY" //Replace it with your Realtime Database API key
+#define DATABASE_URL "https://yourURL.firebaseio.com/" //replace it with your RTDB URL
 
 //CONSTANT Value declaration
 #define SOUND_SPEED 0.034
