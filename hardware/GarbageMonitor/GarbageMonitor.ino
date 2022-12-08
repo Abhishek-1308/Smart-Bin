@@ -1,8 +1,7 @@
 /*
   Abhishek Kairamkonda
   Project Title : Realtime Garbage Monitor 
-  Contact: 
-
+  Contact EMAIL: abk1382000@gmail.com
 */
 #include <WiFi.h>
 #include <FirebaseESP32.h>
