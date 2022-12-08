@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
 
         self.cred = credentials.Certificate("key.json")
-        self.obj = firebase_admin.initialize_app(self.cred, { 'databaseURL': "https://loggbwv-default-rtdb.firebaseio.com/"})
+        self.obj = firebase_admin.initialize_app(self.cred, { 'databaseURL': "https://replacewityour.firebaseio.com/"})
         self.ui.h1status.setText("STATUS1")
 
         print("Firebase Logged in") 
